@@ -1,0 +1,52 @@
+[
+    {
+        "record": {
+            "record_id": "f663b90f-cfd7-4913-93d7-f9eacbf9d31b",
+            "timestamp": "2026-10-09T08:33:43.547835",
+            "sensor_id": "sensor_4",
+            "temperature": 999.99,
+            "humidity": 67.33
+        },
+        "reason": "Температура виходить за межі норми: 999.99"
+    },
+    {
+        "record": {
+            "record_id": "c1ff802f-53c6-45f8-88cf-b49d2ebe2395",
+            "timestamp": "2026-10-09T08:33:43.547855",
+            "sensor_id": "sensor_3",
+            "temperature": null,
+            "humidity": 72.63
+        },
+        "reason": "Значення temperature або humidity є None"
+    },
+    {
+        "record": {
+            "record_id": "f9127c7f-63f2-414f-8b9e-db54cb07061a",
+            "timestamp": "2026-10-09T08:33:44.553544",
+            "sensor_id": "sensor_4",
+            "temperature": null,
+            "humidity": 53.67
+        },
+        "reason": "Значення temperature або humidity є None"
+    },
+    {
+        "record": {
+            "record_id": "46244519-d37e-4ed9-b1df-297828886903",
+            "timestamp": "2026-10-09T08:33:45.561014",
+            "sensor_id": "sensor_1",
+            "temperature": null,
+            "humidity": 78.02
+        },
+        "reason": "Значення temperature або humidity є None"
+    },
+    {
+        "record": {
+            "record_id": "1e163bf0-0ba9-4661-afaa-a295c42f6fdd",
+            "timestamp": "2026-10-09T08:33:45.561049",
+            "sensor_id": "sensor_4",
+            "temperature": 999.99,
+            "humidity": 63.11
+        },
+        "reason": "Температура виходить за межі норми: 999.99"
+    }
+]

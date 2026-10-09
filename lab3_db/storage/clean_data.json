@@ -1,0 +1,58 @@
+[
+    {
+        "record_id": "ac909057-e036-4c5c-9cde-73b952094f4c",
+        "timestamp": "2026-10-09T08:33:43.547863",
+        "sensor_id": "sensor_2",
+        "temperature": 25.05,
+        "humidity": 62.01
+    },
+    {
+        "record_id": "7d9580ce-4deb-453e-b2bc-8c718021a28d",
+        "timestamp": "2026-10-09T08:33:43.547870",
+        "sensor_id": "sensor_5",
+        "temperature": 27.04,
+        "humidity": 56.9
+    },
+    {
+        "record_id": "a379606e-46bd-4857-96ea-05c52746d684",
+        "timestamp": "2026-10-09T08:33:44.553471",
+        "sensor_id": "sensor_5",
+        "temperature": 18.9,
+        "humidity": 73.91
+    },
+    {
+        "record_id": "931ab2c2-72e5-439a-a87e-0846c717c0ac",
+        "timestamp": "2026-10-09T08:33:44.553525",
+        "sensor_id": "sensor_2",
+        "temperature": 27.19,
+        "humidity": 70.5
+    },
+    {
+        "record_id": "0932faf6-a042-4153-b1f3-7142a801729b",
+        "timestamp": "2026-10-09T08:33:44.553573",
+        "sensor_id": "sensor_3",
+        "temperature": 24.23,
+        "humidity": 73.49
+    },
+    {
+        "record_id": "1f261604-fd07-4c0c-bd80-a5dcf4f81084",
+        "timestamp": "2026-10-09T08:33:45.560861",
+        "sensor_id": "sensor_5",
+        "temperature": 20.52,
+        "humidity": 67.02
+    },
+    {
+        "record_id": "d764c96c-0593-4da4-8f1c-9bb0659e8a48",
+        "timestamp": "2026-10-09T08:33:45.560947",
+        "sensor_id": "sensor_2",
+        "temperature": 29.21,
+        "humidity": 64.17
+    },
+    {
+        "record_id": "f75030e6-0187-448c-95b9-960b30caa429",
+        "timestamp": "2026-10-09T08:33:45.560982",
+        "sensor_id": "sensor_1",
+        "temperature": 29.69,
+        "humidity": 65.35
+    }
+]
