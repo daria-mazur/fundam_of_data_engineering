@@ -1,0 +1,8 @@
+{
+    "received": 105,
+    "clean": 39,
+    "dlq": 32,
+    "duplicates": 34,
+    "fetch_retries": 6,
+    "fetch_failures": 0
+}

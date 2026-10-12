@@ -1,52 +1,347 @@
 [
     {
         "record": {
-            "record_id": "f663b90f-cfd7-4913-93d7-f9eacbf9d31b",
-            "timestamp": "2026-10-09T08:33:43.547835",
-            "sensor_id": "sensor_4",
-            "temperature": 999.99,
-            "humidity": 67.33
-        },
-        "reason": "Температура виходить за межі норми: 999.99"
-    },
-    {
-        "record": {
-            "record_id": "c1ff802f-53c6-45f8-88cf-b49d2ebe2395",
-            "timestamp": "2026-10-09T08:33:43.547855",
-            "sensor_id": "sensor_3",
-            "temperature": null,
-            "humidity": 72.63
-        },
-        "reason": "Значення temperature або humidity є None"
-    },
-    {
-        "record": {
-            "record_id": "f9127c7f-63f2-414f-8b9e-db54cb07061a",
-            "timestamp": "2026-10-09T08:33:44.553544",
-            "sensor_id": "sensor_4",
-            "temperature": null,
-            "humidity": 53.67
-        },
-        "reason": "Значення temperature або humidity є None"
-    },
-    {
-        "record": {
-            "record_id": "46244519-d37e-4ed9-b1df-297828886903",
-            "timestamp": "2026-10-09T08:33:45.561014",
+            "record_id": "524601b7-2753-440e-9c41-5f35568cb205",
+            "timestamp": "2026-10-10T20:06:10.877198",
             "sensor_id": "sensor_1",
-            "temperature": null,
-            "humidity": 78.02
+            "humidity": 47.64
         },
-        "reason": "Значення temperature або humidity є None"
+        "reason": "Відсутнє обов'язкове поле: temperature",
+        "failed_at": "2026-10-10T20:06:10.877659"
     },
     {
         "record": {
-            "record_id": "1e163bf0-0ba9-4661-afaa-a295c42f6fdd",
-            "timestamp": "2026-10-09T08:33:45.561049",
+            "record_id": "9bf73e82-89c7-4e7b-b9b6-772a2d2c7bf8",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_5",
+            "temperature": 17.66,
+            "humidity": 54.22
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:10.877746"
+    },
+    {
+        "record": {
+            "record_id": "ac725c29-5c3d-4032-9bcb-3f34b3bd54f7",
+            "timestamp": "2026-10-10T20:06:10.877426",
+            "sensor_id": "sensor_5",
+            "temperature": null,
+            "humidity": 76.2
+        },
+        "reason": "Значення temperature або humidity є None",
+        "failed_at": "2026-10-10T20:06:10.877775"
+    },
+    {
+        "record": {
+            "record_id": "54ba8f5d-f3d3-4939-bc6f-96600114c2c8",
+            "timestamp": "2026-10-10T20:06:10.879498",
+            "sensor_id": "sensor_5",
+            "temperature": 26.53
+        },
+        "reason": "Відсутнє обов'язкове поле: humidity",
+        "failed_at": "2026-10-10T20:06:10.879608"
+    },
+    {
+        "record": {
+            "record_id": "4a7f274b-de8d-4e24-933b-a4d670e59f03",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_5",
+            "temperature": 22.96,
+            "humidity": 60.27
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:10.879625"
+    },
+    {
+        "record": {
+            "record_id": "8abdbefa-0b2b-4ab9-ba25-0e35b7f65f5c",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_5",
+            "temperature": 20.53,
+            "humidity": 42.34
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:10.879721"
+    },
+    {
+        "record": {
+            "record_id": "192627ca-e13f-41f7-89a5-9536b537f6ab",
+            "timestamp": "2026-10-10T20:06:10.884307",
             "sensor_id": "sensor_4",
             "temperature": 999.99,
-            "humidity": 63.11
+            "humidity": 59.28
         },
-        "reason": "Температура виходить за межі норми: 999.99"
+        "reason": "Температура виходить за межі норми: 999.99",
+        "failed_at": "2026-10-10T20:06:10.884529"
+    },
+    {
+        "record": {
+            "record_id": "5c5d44a3-03dc-4635-9ddb-9fbfc626ae72",
+            "timestamp": "2026-10-10T20:06:10.884346",
+            "temperature": 24.04,
+            "humidity": 70.98
+        },
+        "reason": "Відсутнє обов'язкове поле: sensor_id",
+        "failed_at": "2026-10-10T20:06:10.884559"
+    },
+    {
+        "record": {
+            "record_id": "64fd4ccc-f212-408d-8629-5bfefde48951",
+            "timestamp": "2026-10-10T20:06:10.884371",
+            "sensor_id": "sensor_4",
+            "temperature": "INVALID_TEMP",
+            "humidity": 49.2
+        },
+        "reason": "Некоректний тип даних для атрибутів: temp=INVALID_TEMP, hum=49.2",
+        "failed_at": "2026-10-10T20:06:10.884768"
+    },
+    {
+        "record": {
+            "record_id": "2d4de5e5-f4d3-497c-bd47-6312d4c93e7c",
+            "timestamp": "2026-10-10T20:06:10.884389",
+            "sensor_id": "sensor_1",
+            "temperature": "INVALID_TEMP",
+            "humidity": 60.58
+        },
+        "reason": "Некоректний тип даних для атрибутів: temp=INVALID_TEMP, hum=60.58",
+        "failed_at": "2026-10-10T20:06:10.884825"
+    },
+    {
+        "record": {
+            "record_id": "7e0f1a90-0df0-405e-9116-b743c5b80713",
+            "timestamp": "2026-10-10T20:06:10.886592",
+            "sensor_id": "sensor_2",
+            "temperature": null,
+            "humidity": 57.0
+        },
+        "reason": "Значення temperature або humidity є None",
+        "failed_at": "2026-10-10T20:06:10.886717"
+    },
+    {
+        "record": {
+            "record_id": "0ee56ad9-0677-413b-ab40-c2df0a8bb2a0",
+            "timestamp": "2026-10-10T20:06:10.886616",
+            "temperature": 25.59,
+            "humidity": 68.52
+        },
+        "reason": "Відсутнє обов'язкове поле: sensor_id",
+        "failed_at": "2026-10-10T20:06:10.886735"
+    },
+    {
+        "record": {
+            "record_id": "a7226274-e39f-4949-bde7-d683227eb7ec",
+            "timestamp": "2026-10-10T20:06:10.886638",
+            "sensor_id": "sensor_5",
+            "temperature": 999.99,
+            "humidity": 77.0
+        },
+        "reason": "Температура виходить за межі норми: 999.99",
+        "failed_at": "2026-10-10T20:06:10.886754"
+    },
+    {
+        "record": {
+            "record_id": "5081f27e-a148-42f0-84ea-1dbd2559c4f3",
+            "timestamp": "2026-10-10T20:06:10.886657",
+            "sensor_id": "sensor_4",
+            "temperature": null,
+            "humidity": 73.58
+        },
+        "reason": "Значення temperature або humidity є None",
+        "failed_at": "2026-10-10T20:06:10.886769"
+    },
+    {
+        "record": {
+            "record_id": "8cabee83-9854-4e45-acae-41833c808874",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_3",
+            "temperature": 17.42,
+            "humidity": 76.32
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:10.886861"
+    },
+    {
+        "record": {
+            "record_id": "99949aee-0a5a-4c7a-8b85-e89651123315",
+            "timestamp": "2026-10-10T20:06:11.500157",
+            "sensor_id": "sensor_4",
+            "temperature": null,
+            "humidity": 54.17
+        },
+        "reason": "Значення temperature або humidity є None",
+        "failed_at": "2026-10-10T20:06:11.500657"
+    },
+    {
+        "record": {
+            "record_id": "a80156df-3385-49c4-b625-90010226bb62",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_4",
+            "temperature": 22.57,
+            "humidity": 55.4
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:11.500755"
+    },
+    {
+        "record": {
+            "record_id": "175d4dd8-e822-446e-bee6-bd8539720a59",
+            "timestamp": "2026-10-10T20:06:11.500261",
+            "sensor_id": "sensor_5",
+            "temperature": "INVALID_TEMP",
+            "humidity": 53.05
+        },
+        "reason": "Некоректний тип даних для атрибутів: temp=INVALID_TEMP, hum=53.05",
+        "failed_at": "2026-10-10T20:06:11.500802"
+    },
+    {
+        "record": {
+            "record_id": "5afdee48-421b-4970-b54e-bb3fc69b1ed8",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_2",
+            "temperature": 15.84,
+            "humidity": 71.49
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:11.500848"
+    },
+    {
+        "record": {
+            "record_id": "d989197c-3b16-47a6-8413-c19c69e10225",
+            "timestamp": "2026-10-10T20:06:11.710962",
+            "sensor_id": "sensor_4",
+            "temperature": 999.99,
+            "humidity": 49.12
+        },
+        "reason": "Температура виходить за межі норми: 999.99",
+        "failed_at": "2026-10-10T20:06:11.711191"
+    },
+    {
+        "record": {
+            "record_id": "af1851fc-c32a-46fd-818e-791972dfd7ee",
+            "timestamp": "2026-10-10T20:06:11.711029",
+            "sensor_id": "sensor_3",
+            "temperature": "INVALID_TEMP",
+            "humidity": 72.54
+        },
+        "reason": "Некоректний тип даних для атрибутів: temp=INVALID_TEMP, hum=72.54",
+        "failed_at": "2026-10-10T20:06:11.711280"
+    },
+    {
+        "record": {
+            "record_id": "031f9caf-4fa7-4fbb-a571-58640c09a847",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_3",
+            "temperature": 18.92,
+            "humidity": 65.24
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:11.714066"
+    },
+    {
+        "record": {
+            "record_id": "f09c8ff6-8740-4a57-b1c4-29bb3d038b7b",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_4",
+            "temperature": 15.43,
+            "humidity": 51.77
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:11.714086"
+    },
+    {
+        "record": {
+            "record_id": "4d54dbab-b32e-4849-a59f-0ac0e0d7977d",
+            "timestamp": "2026-10-10T20:06:11.713949",
+            "sensor_id": "sensor_2",
+            "humidity": 60.2
+        },
+        "reason": "Відсутнє обов'язкове поле: temperature",
+        "failed_at": "2026-10-10T20:06:11.714106"
+    },
+    {
+        "record": {
+            "record_id": "156970b9-e2df-498c-9011-28fbd9da9014",
+            "timestamp": "2026-10-10T20:06:11.921463",
+            "sensor_id": "sensor_1",
+            "temperature": 18.34
+        },
+        "reason": "Відсутнє обов'язкове поле: humidity",
+        "failed_at": "2026-10-10T20:06:11.922268"
+    },
+    {
+        "record": {
+            "record_id": "4e3389d7-04e3-40de-9a1e-95108eede44f",
+            "timestamp": "2026-10-10T20:06:11.921593",
+            "sensor_id": "sensor_2",
+            "temperature": "INVALID_TEMP",
+            "humidity": 71.11
+        },
+        "reason": "Некоректний тип даних для атрибутів: temp=INVALID_TEMP, hum=71.11",
+        "failed_at": "2026-10-10T20:06:11.922428"
+    },
+    {
+        "record": {
+            "record_id": "61398a5f-4493-4d1d-ba62-678436c4608c",
+            "timestamp": "not-a-date",
+            "sensor_id": "sensor_3",
+            "temperature": 19.35,
+            "humidity": 46.94
+        },
+        "reason": "Некоректний timestamp: not-a-date",
+        "failed_at": "2026-10-10T20:06:11.922502"
+    },
+    {
+        "record": {
+            "record_id": "1cff54b5-47db-402a-bbb0-5a1643d1106b",
+            "timestamp": "2026-10-10T20:06:11.921690",
+            "sensor_id": "sensor_1",
+            "temperature": 26.8
+        },
+        "reason": "Відсутнє обов'язкове поле: humidity",
+        "failed_at": "2026-10-10T20:06:11.922572"
+    },
+    {
+        "record": {
+            "record_id": "9e347449-1c1d-4036-adf4-b5e1ce9272c7",
+            "timestamp": "2026-10-10T20:06:11.921737",
+            "sensor_id": "sensor_5",
+            "temperature": null,
+            "humidity": 74.15
+        },
+        "reason": "Значення temperature або humidity є None",
+        "failed_at": "2026-10-10T20:06:11.922642"
+    },
+    {
+        "record": {
+            "record_id": "72da5b26-fb1e-468a-ac25-8c3c73d94bbc",
+            "timestamp": "2026-10-10T20:06:12.133915",
+            "sensor_id": "sensor_4",
+            "temperature": null,
+            "humidity": 69.21
+        },
+        "reason": "Значення temperature або humidity є None",
+        "failed_at": "2026-10-10T20:06:12.134373"
+    },
+    {
+        "record": {
+            "record_id": "0f898b2b-601d-46ab-b278-b7c5294da8bb",
+            "timestamp": "2026-10-10T20:06:12.133967",
+            "sensor_id": "sensor_4",
+            "temperature": 999.99,
+            "humidity": 54.34
+        },
+        "reason": "Температура виходить за межі норми: 999.99",
+        "failed_at": "2026-10-10T20:06:12.134415"
+    },
+    {
+        "record": {
+            "record_id": "cb325fe0-3d9f-4f04-a4c5-1c8a4e37ee1f",
+            "timestamp": "2026-10-10T20:06:12.133989",
+            "sensor_id": "sensor_1",
+            "temperature": "INVALID_TEMP",
+            "humidity": 58.63
+        },
+        "reason": "Некоректний тип даних для атрибутів: temp=INVALID_TEMP, hum=58.63",
+        "failed_at": "2026-10-10T20:06:12.134452"
     }
 ]
