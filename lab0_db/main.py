@@ -37,17 +37,20 @@ def init_db():
 def seed_data(count=5):
     insert_query = """
     INSERT INTO students (full_name, email, gpa)
-    VALUES (%s, %s, %s);
+    VALUES (%s, %s, %s)
+    ON CONFLICT (email) DO NOTHING;
     """
     with get_connection() as conn:
         with conn.cursor() as cursor:
+            inserted = 0
             for _ in range(count):
                 name = fake.name()
-                email = fake.email()
+                email = fake.unique.email()
                 gpa = round(random.uniform(60.0, 100.0), 2)
                 cursor.execute(insert_query, (name, email, gpa))
+                inserted += cursor.rowcount
             conn.commit()
-            print(f"[+] Додано {count} згенерованих записів.")
+            print(f"[+] Додано {inserted} згенерованих записів.")
 
 # Вибірка даних (Select / Read)
 def fetch_all_students():
@@ -68,7 +71,8 @@ def update_student_gpa(student_id, new_gpa):
         with conn.cursor() as cursor:
             cursor.execute(update_query, (new_gpa, student_id))
             conn.commit()
-            print(f"\n[+] Оновлено GPA для студента з ID={student_id} на {new_gpa}.")
+            print(f"\n[+] Оновлено GPA для студента з ID={student_id} на {new_gpa} "
+                  f"(змінено рядків: {cursor.rowcount}).")
 
 # Видалення даних (Delete)
 def delete_student(student_id):
@@ -77,7 +81,8 @@ def delete_student(student_id):
         with conn.cursor() as cursor:
             cursor.execute(delete_query, (student_id,))
             conn.commit()
-            print(f"\n[-] Видалено студента з ID={student_id}.")
+            print(f"\n[-] Видалено студента з ID={student_id} "
+                  f"(видалено рядків: {cursor.rowcount}).")
 
 if __name__ == "__main__":
     try:
