@@ -1,0 +1,56 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[ukrainian]{babel}
+\usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage[labelsep=colon]{caption}
+\usepackage{enumitem}
+\usepackage{fancyvrb}
+\usepackage{indentfirst}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta,shapes.geometric}
+
+\graphicspath{{figures/}}
+\fvset{fontsize=\small,frame=single,framesep=2mm}
+\setlist[enumerate]{leftmargin=*}
+\setlength{\parskip}{0.3em}
+\setlength{\emergencystretch}{3em}
+
+% Титульна сторінка: #1 — номер лабораторної роботи
+\newcommand{\labtitlepage}[1]{%
+\begin{titlepage}
+\begin{center}
+\large
+Міністерство освіти і науки України\\
+Національний університет ``Львівська політехніка''\\
+Кафедра прикладної математики
+\vspace*{\fill}
+
+{\LARGE Звіт}\\[0.5em]
+{\Large про виконання лабораторної роботи №#1}\\[0.5em]
+{\Large з курсу «Основи інженерії даних»}
+\vspace*{\fill}
+\end{center}
+\begin{flushright}
+\begin{minipage}{0.4\textwidth}
+\large
+Виконала:\\
+студентка групи ПМІД-11\\
+Мазур Д. М.\\[1.5em]
+Перевірив:\\
+Алєксєєв В. І.
+\end{minipage}
+\end{flushright}
+\vspace*{\fill}
+\begin{center}
+\large Львів — 2026
+\end{center}
+\end{titlepage}
+\setcounter{page}{2}}
+
+\newcommand{\rsec}[1]{\par\medskip\noindent\textbf{#1}\ }
